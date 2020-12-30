@@ -1,4 +1,7 @@
 #!/bin/bash
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.  
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 
  CUDA_VISIBLE_DEVICES=0 python3.6 -u codes/run.py --do_train --cuda --do_valid --do_test \
   --data_path data/FB15k --model BoxTransE -n 128 -b 512 -d 400 -g 24 -a 1.0 \

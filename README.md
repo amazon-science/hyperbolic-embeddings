@@ -1,3 +1,4 @@
+
 ## Codes:
 ### Query2Box
 ### HypE
@@ -22,7 +23,7 @@ bash example_q2b.sh
 --cuda : Boolean that indicates if cuda should be used
 --do_valid : Boolean that indicates if model should use validation
 --do_test : Boolean that indicates if model should be tested to log metrics
---data_path : Folder that contains train, test and validation data
+--data_path : Folder that contains train, test and validation 
 --model : Use 2-dimensions or one dimension for the model
 -n : Number of negative samples per positive sample
 -b : Batch size for training
@@ -53,7 +54,7 @@ manifolds
 base.py - Base file with function definitions for the manifolds
 euclidean.py - Implementation of the functions for Euclidean manifold
 lorentz.py - Implementation of the functions for Lorentz manifold
-poincare.py - Implementation of the functions for PoincarÃ© manifold
+poincare.py - Implementation of the functions for Poincaré manifold
 model.py - File with the main model class (Query2Manifold)
 optimizers
 
@@ -65,4 +66,5 @@ hyperbolicity.py - Math functions
 math_utils.py - Math functions
 ```
 # License
-This data is re-released under the Creative Commons Attribution 4.0 International (CC-BY 4.0) licence. 
+This project is licensed under the Creative Commons Attribution 4.0 International (CC-BY 4.0) license.
+
