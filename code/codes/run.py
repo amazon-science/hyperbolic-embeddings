@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.  
-# SPDX-License-Identifier: CC-BY-NC-4.0
 
 from __future__ import absolute_import
 from __future__ import division

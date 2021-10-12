@@ -1,6 +1,3 @@
-# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.  
-# SPDX-License-Identifier: CC-BY-NC-4.0
-
 """Euclidean manifold."""
 
 from manifolds.base import Manifold
