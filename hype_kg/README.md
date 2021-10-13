@@ -1,14 +1,7 @@
-
-## Implementation  for the papers:
+## Implementation  for the paper:
 
 
 **Self-Supervised Hyperboloid Representations from Logical Queries over Knowledge Graphs**, Nurendra Choudhary, Nikhil Rao, Sumeet Katariya, Karthik Subbian and Chandan Reddy, WWW 2021.
-
-Code directory: ```code/codes/```
-
-**ANTHEM: Attentive Hyperbolic Entity Model for Product Search**, Nurendra Choudhary, Nikhil Rao, Sumeet Katariya, Karthik Subbian and Chandan Reddy, WSDM 2022.
-
-Code directory: ```product_matching/```
 
 ## Requirements
 ```
@@ -54,7 +47,7 @@ bash example_q2b.sh
 
 ## Code details
 ```
-hype_kg/codes/
+codes/
 ├── dataloader.py - File to load data for the HypE models
 ├── manifolds
 │   ├── __init__.py
@@ -72,7 +65,8 @@ hype_kg/codes/
     ├── hyperbolicity.py - Math functions
     └── math_utils.py - Math functions
 ```
-## Please refer these works if you find the code useful:
+
+## Please refer this work if you find the code useful:
 ```
 @inproceedings{10.1145/3442381.3449974,
 author = {Choudhary, Nurendra and Rao, Nikhil and Katariya, Sumeet and Subbian, Karthik and Reddy, Chandan K.},
@@ -91,17 +85,3 @@ location = {Ljubljana, Slovenia},
 series = {WWW '21}
 }
 ```
-```
-@inproceedings{choudhary2022anthem,
-author = {Choudhary, Nurendra and Rao, Nikhil and Katariya, Sumeet and Subbian, Karthik and Reddy, Chandan K.},
-title = {ANTHEM: Attentive Hyperbolic Entity Model for Product Search},
-year = {2022},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-booktitle = {{WSDM} '22: The Fifteenth {ACM} International Conference on Web Search
-               and Data Mining, Phoenix, AZ, USA, February 21-25, 2022},
-location = {Phoenix, AZ, USA},
-series = {WSDM '22}
-}
-```
-
