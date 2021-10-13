@@ -4,7 +4,7 @@
 
 **Self-Supervised Hyperboloid Representations from Logical Queries over Knowledge Graphs**, Nurendra Choudhary, Nikhil Rao, Sumeet Katariya, Karthik Subbian and Chandan Reddy, WWW 2021.
 
-Code directory: ```codes/```
+Code directory: ```code/codes/```
 
 **ANTHEM: Attentive Hyperbolic Entity Model for Product Search**, Nurendra Choudhary, Nikhil Rao, Sumeet Katariya, Karthik Subbian and Chandan Reddy, WSDM 2022.
 
