@@ -3,8 +3,10 @@
 **ANTHEM: Attentive Hyperbolic Entity Model for Product Search**, Nurendra Choudhary, Nikhil Rao, Sumeet Katariya, Karthik Subbian and Chandan Reddy, WSDM 2022.
 
 ## Model Codes:
-```euclidean_intersection.py
- hyperboloid.py```
+```
+euclidean_intersection.py
+hyperboloid.py
+```
 
 ## Requirements
 ```
