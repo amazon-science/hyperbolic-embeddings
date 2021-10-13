@@ -12,7 +12,6 @@ tensorboardX==1.6
 ## Run
 To reproduce the results on FB15k, FB15k-237 and NELL, the hyperparameters are set in `example.sh`.
 ```
-cd code/
 bash example_hype.sh
 bash example_q2b.sh
 ```
