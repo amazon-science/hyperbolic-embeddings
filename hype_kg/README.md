@@ -15,7 +15,7 @@ To reproduce the results on FB15k, FB15k-237 and NELL, the hyperparameters are s
 bash example_hype.sh
 bash example_q2b.sh
 ```
-Refer to issue for any problems: https://github.com/amazon-research/hyperbolic-embeddings/issues/4
+Refer to this issue that answers several queries: https://github.com/amazon-research/hyperbolic-embeddings/issues/4
 
 An updated version with reproducibility on the standard FB15k and NELL 995 datasets: https://github.com/Akirato/HypE
 
