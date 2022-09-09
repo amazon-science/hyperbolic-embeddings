@@ -12,16 +12,16 @@ from tqdm import tqdm
 from matchzoo.engine.param import Param
 from matchzoo.engine.param_table import ParamTable
 from matchzoo.engine.base_model import BaseModel
-import tensorflow_manopt as manopt
-#from tensorflow_manopt.layers import ManifoldEmbedding
-from tensorflow_manopt.variable import assign_to_manifold
+import tensorflow_riemopt as riemopt
+#from tensorflow_riemopt.layers import ManifoldEmbedding
+from tensorflow_riemopt.variable import assign_to_manifold
 from matchzoo import preprocessors
 import itertools
 
 @tf.keras.utils.register_keras_serializable(name="ManifoldEmbedding")
 class ManifoldEmbedding(Embedding):
     """
-    Manifold Embedding that utilizes manifolds from tensorflow_manopt
+    Manifold Embedding that utilizes manifolds from tensorflow_riemopt
     """
     def __init__(self, *args, manifold, **kwargs):
         super().__init__(*args, **kwargs)
@@ -89,7 +89,7 @@ class Hyperboloid(BaseModel):
                          desc="Box Dimension"))
         params.add(Param(name='dropout', value=0.2,
                          desc="Dropout"))
-        params.add(Param(name='manifold', value=manopt.manifolds.Poincare(),
+        params.add(Param(name='manifold', value=riemopt.manifolds.Poincare(),
                          desc="Manifold"))
         return params
     
@@ -258,7 +258,7 @@ class Hyperboloid(BaseModel):
             >>> model.compile()
 
         """
-        opt = manopt.optimizers.RiemannianAdam(learning_rate=0.2)
+        opt = riemopt.optimizers.RiemannianAdam(learning_rate=0.2)
         self._backend.compile(optimizer=opt,
                               loss=self._params['task'].loss)
     @classmethod
