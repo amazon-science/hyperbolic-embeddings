@@ -16,7 +16,7 @@ tensorflow_manopt
 ## Integrate with Matchzoo
 Download the development version of Matchzoo: https://github.com/NTMC-Community/MatchZoo/
 ```
-pip install tensorflow_manopt
+pip install git+https://github.com/master/tensorflow-riemopt.git
 mv euclidean_intersection.py MatchZoo/matchzoo/models/
 mv hyperboloid.py MatchZoo/matchzoo/models/
 ```
