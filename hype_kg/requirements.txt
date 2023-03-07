@@ -1,2 +1,2 @@
-torch==1.2.0
+torch==1.13.1
 tensorboardX==2.0
